@@ -6,6 +6,7 @@
     background-color: #333333c5;
     display: flex;
     justify-content:center;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.651) ;
 }
 #navbar>ul{
     display: flex;
@@ -39,7 +40,38 @@
 .logo img{
     max-width: 100%;
 }
- #navbar>ul>li>a>::first-letter{
-     color: red;
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-box{
+  background-image: url('/website\ banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
   
- }
+}
+.search-icon i{
+   color: rgba(45, 255, 3, 0.822);
+    width: 10px;
+    height:45px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.search-container>input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 600px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px #ff0000;
+    border: 1px solid #ff0000;
+    font-size: 16px;
+}
